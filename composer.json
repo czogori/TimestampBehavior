@@ -1,6 +1,6 @@
 {
     "name": "czogori/propel-timestamp-behavior",
-    "description": "Storage of key-value items using Postgres hstore.",
+    "description": "Timestamp behavior with the possibility of excluding columns",
     "keywords": [ "propel", "behavior", "timestamp" ],
     "homepage": "https://github.com/czogori/TimestampBehavior",
     "license": "MIT",
