@@ -71,7 +71,8 @@ class TimestampBehavior extends Behavior
 \$params = explode(',', '$excludeParams');
 \$onlyExcludeParams = true;
 foreach (\$this->getModifiedColumns() as \$col) {
-    if (!in_array(end(explode('.', \$col)), \$params)) {
+    \$nameItems = explode('.', \$col);
+    if (!in_array(end(\$nameItems), \$params)) {
         \$onlyExcludeParams = false;
     }
 }
